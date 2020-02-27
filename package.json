@@ -1,0 +1,19 @@
+{
+  "name": "rome-demo",
+  "version": "1.0.0",
+  "description": "rome demo",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "~/bin/rome bundle src/index.js build"
+  },
+  "keywords": [
+    "rome"
+  ],
+  "author": "linux_china",
+  "license": "ISC",
+  "dependencies": {
+    "@romejs-web/frontend": "file:../../github/facebookexperimental/rome/packages/@romejs-web/frontend"
+  }
+}
