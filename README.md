@@ -11,17 +11,16 @@ It aims to be a comprehensive tool for anything related to the processing of Jav
 ```
 $ git clone git@github.com:facebookexperimental/rome.git
 $ cd rome/scripts
-$ export DEV_FOLDER=$HOME/rome
-$ ./dev-rome --help
+$ ./dev-rome
 ```
 
 * Create a shell script named "rome" with following code:
 
 ```
-node --unhandled-rejections=none --no-deprecation  $HOME/bin/rome-dev/index.js $@
+node --unhandled-rejections=none --no-deprecation  /tmp/rome-dev/index.js $@
 ```
 
-* Change file mode
+* Add execute mode for "rome" script
 
 ```
 chmod u+x rome
