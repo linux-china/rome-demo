@@ -12,8 +12,5 @@
     "rome"
   ],
   "author": "linux_china",
-  "license": "ISC",
-  "dependencies": {
-    "@romejs-web/frontend": "file:../../github/facebookexperimental/rome/packages/@romejs-web/frontend"
-  }
+  "license": "ISC"
 }
