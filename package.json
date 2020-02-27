@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "~/bin/rome bundle src/index.js build"
+    "build": "~/bin/rome bundle src/index.js build",
+    "first": "~/bin/rome run src/first.ts"
   },
   "keywords": [
     "rome"
