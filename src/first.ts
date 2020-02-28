@@ -1,5 +1,3 @@
-function greeter(person: string) {
-    return "Hello, " + person + "!";
-}
+import {greeter} from "./greeter"
 
 console.log(greeter("TypeScript"))
