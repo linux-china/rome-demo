@@ -2,13 +2,11 @@
   "name": "rome-demo",
   "version": "1.0.0",
   "description": "rome demo",
-  "type": "module",
-  "rome": {},
-  "main": "src/index.js",
+  "main": "src/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "~/bin/rome bundle src/index.js build",
-    "first": "~/bin/rome run src/first.ts"
+    "build": "rome bundle src/index.mjs build",
+    "first": "rome run src/first.ts"
   },
   "keywords": [
     "rome"
