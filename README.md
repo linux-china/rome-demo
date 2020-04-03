@@ -1,40 +1,24 @@
-FaceBook Rome
-=============
+FaceBook Rome Demo
+==================
 
-Rome is an experimental JavaScript toolchain. It includes a compiler, linter, formatter, bundler, testing framework and more.  
-It aims to be a comprehensive tool for anything related to the processing of JavaScript source code.
 
-## How to build rome
+# ESM & CJS
 
-* Build from source code
+* import CJS from ESM
 
-```
-$ git clone git@github.com:facebookexperimental/rome.git
-$ cd rome/scripts
-$ ./dev-rome
+```javascript
+import * as cjs1 from "./cjs1.js"
 ```
 
-* Create a shell script named "rome" with following code:
+* import ESM from CJS with dynamic import
 
-```
-node --unhandled-rejections=none --no-deprecation  /tmp/rome-dev/index.js $@
-```
-
-* Add execute mode for "rome" script
-
-```
-chmod u+x rome
+```javascript
+(async () => {
+    let math = await import("./math.mjs")
+    console.log(math.sum(1, 2))
+})();
 ```
 
-* Visit rome Getting Started https://github.com/facebookexperimental/rome/blob/master/docs/getting-started.md
+# References
 
-
-## Please add following node parameters to run ES Module
-
-```
---experimental-modules --es-module-specifier-resolution=node --no-deprecation --no-warnings
-```
-
-# Reference
-
-* https://github.com/facebookexperimental/rome
+* Rome: https://romejs.dev/
