@@ -7,7 +7,7 @@ FaceBook Rome Demo
 * import CJS from ESM
 
 ```javascript
-import * as cjs1 from "./cjs1.js"
+import * as cjs1 from "./cjs1"
 ```
 
 * import ESM from CJS with dynamic import
