@@ -1,7 +1,7 @@
-import {sum} from "./math"
-// greeter function from greeter.ts
-import {greeter } from "./greeter";
-import "./demo.css"
+const  cjs1 = require("./cjs1");
 
-console.log(sum(1, 2));
-console.log(greeter("TypeScript"));
+(async () => {
+    let math = await import("./math.mjs")
+    console.log(math.sum(1,2))
+    cjs1.commonjs_hello()
+})();
