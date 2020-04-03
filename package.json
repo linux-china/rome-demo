@@ -5,6 +5,7 @@
   "main": "src/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "rome run src/index.mjs",
     "build": "rome bundle src/index.mjs build",
     "first": "rome run src/first.ts"
   },
