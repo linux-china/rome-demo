@@ -1,5 +1,5 @@
-function commonjs_hello() {
-  console.log("cjs")
+function hello() {
+    console.log("Hello CJS!")
 }
 
-module.exports = {commonjs_hello: commonjs_hello}
+module.exports = {hello: hello}
