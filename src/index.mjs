@@ -9,4 +9,4 @@ console.log(sum(1, 2));
 
 console.log(greeter("TypeScript"));
 
-cjs1.commonjs_hello();
+cjs1.hello();
