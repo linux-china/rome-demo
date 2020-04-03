@@ -3,7 +3,7 @@ import {sum} from "./math.mjs"
 // typescript module
 import {greeter} from "./greeter";
 // cjs module
-import * as cjs1 from "./cjs1.js"
+import * as cjs1 from "./cjs1"
 
 console.log(sum(1, 2));
 
