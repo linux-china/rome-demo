@@ -1,3 +1,3 @@
-import {greeter} from "./greeter"
+import {greeter} from './greeter';
 
-console.log(greeter("TypeScript"))
+console.log(greeter('TypeScript'));
