@@ -13,5 +13,8 @@
     "rome"
   ],
   "author": "linux_china",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rome": "10.0.3-beta"
+  }
 }
